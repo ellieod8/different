@@ -1,0 +1,57 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout Styles */
+.header, .nav-menu, .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+/* Header */
+.header {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    background-color: #333;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Content Layout */
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    gap: 10px;
+}
+
+/* Side Content */
+.content {
+    width: 20%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1; /* Takes up the remaining space */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
